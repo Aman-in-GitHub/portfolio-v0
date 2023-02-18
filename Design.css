@@ -1030,14 +1030,14 @@ label {
   }
 
   .dynamic {
-  line-height: 3rem;
-  height: 3rem;
+  line-height: 3.5rem;
+  height: 3.5rem;
   overflow: hidden;
   }
 
   @keyframes slide {
   100% {
-    top: -13.5rem;
+    top: -13.7rem;
     }
   }
 
