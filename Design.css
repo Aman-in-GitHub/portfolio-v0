@@ -344,7 +344,7 @@ label {
   animation-delay: 1.75s;
 
 }
-
+/* 
 .slider {
   flex: 0 0 70%;
   max-width: 100%;
@@ -379,9 +379,9 @@ label {
     background: url('Aman4.jpg') no-repeat center center/cover;
   }
 }
-
+ */
 .para {
-  margin-top: 1rem;
+/*   margin-top: 1rem; */
   font-size: 1.5rem;
 }
 
