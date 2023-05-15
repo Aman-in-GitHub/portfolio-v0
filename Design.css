@@ -212,7 +212,6 @@ label {
 
 .homeleft p {
   cursor: pointer;
-  display: inline-block;
   letter-spacing: .1rem;
   margin-top: 2rem;
   font-size: 4.8rem;
@@ -235,7 +234,7 @@ label {
   -webkit-text-stroke-color: darkgray;
   -webkit-text-stroke-width: .1rem;
   bottom: 350%;
-  right: 73%;
+  right: 78%;
   text-decoration: none;
   opacity: 0;
   transition: 2.5s ease;
@@ -292,7 +291,7 @@ label {
   max-width: 100%;
   font-size: 5rem;
   font-weight: 700;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   text-align: center;
 }
 
@@ -344,8 +343,8 @@ label {
   animation-delay: 1.75s;
 
 }
-/* 
-.slider {
+
+/* .slider {
   flex: 0 0 70%;
   max-width: 100%;
   margin: auto;
@@ -381,7 +380,7 @@ label {
 }
  */
 .para {
-/*   margin-top: 1rem; */
+  margin-top: 1.5rem;
   font-size: 1.5rem;
 }
 
@@ -393,7 +392,7 @@ label {
 .typewriter {
   flex: 0 0 100%;
   max-width: 100%;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .static {
@@ -982,7 +981,7 @@ label {
   }
 
   .homeleft .hey {
-    font-size: 2rem;
+    font-size: 6rem;
     font-weight: 600;
     display: inline;
   }
@@ -995,7 +994,7 @@ label {
   .homeleft p {
     letter-spacing: .1rem;
     margin-top: 1.5rem;
-    font-size: 1.6rem;
+    font-size: 3rem;
     color: #3bffe3;
     display: block;
     -webkit-text-fill-color: transparent;
@@ -1023,32 +1022,53 @@ label {
     height: 40vh;
 
   }
+
   .static {
-  color: black;
-  font-size: 2.5rem;
-  font-weight: 600;
+
+    color: black;
+
+    font-size: 2.5rem;
+
+    font-weight: 600;
+
   }
 
   .dynamic {
-  line-height: 3.5rem;
-  height: 3.5rem;
-  overflow: hidden;
+
+    line-height: 3.5rem;
+
+    height: 3.5rem;
+
+    overflow: hidden;
+
   }
 
   @keyframes slide {
-  100% {
-    top: -13.7rem;
+
+    100% {
+
+      top: -13.7rem;
+
     }
+
   }
 
   .dynamic li {
-  font-weight: 900;
-  color: #3bffe3;
-  font-size: 2.5rem;
-  top: 0;
-  position: relative;
-  list-style: none;
-  animation: slide 8s steps(4) infinite;
+
+    font-weight: 900;
+
+    color: #3bffe3;
+
+    font-size: 2.5rem;
+
+    top: 0;
+
+    position: relative;
+
+    list-style: none;
+
+    animation: slide 8s steps(4) infinite;
+
   }
 
   .para {
@@ -1138,4 +1158,14 @@ label {
     transform: scale(1.2);
   }
 
+}
+
+@media (max-width:900px) {
+  .homeleft .hey {
+    font-size: 2rem;
+  }
+
+  .homeleft p {
+    font-size: 1.6rem;
+  }
 }
